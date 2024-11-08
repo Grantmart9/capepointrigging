@@ -111,16 +111,16 @@ export const AboutUsMain = () => {
   return (
     <div>
       <div sx={{ backgroundColor: "black" }} className="rounded-md p-2">
-        <div className="flex align-center justify-center text-gray-light p-2">
-          An experienced and professional rigging team with decades of rigging
-          experience
-        </div>
         <div
           className="flex text-center justify-center"
           sx={{ color: "whitesmoke" }}
         >
           <div className="grid md:grid-cols-2 gap-0">
             <div style={{ color: "white" }} className="p-2">
+              <div className="flex align-center justify-center text-gray-light text-xl p-2">
+                An experienced and professional rigging team with decades of
+                rigging experience
+              </div>
               At Cape Point Rigging, we are passionate about providing a
               complete suite of high-quality rigging services to our clients.
               With decades of experience in the industry and a passion for
