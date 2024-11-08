@@ -12,38 +12,36 @@ import { Enquire } from "./SubPages/Enquire";
 
 const LandingContext = () => {
   return (
-    <Fade in={true} timeout={2800}>
-      <div>
-        <CardContent
-          className="flex text-center justify-center"
-          style={{
-            fontFamily: AppFont,
-            color: "white",
-            backgroundColor: layoutbgcolor,
-            border: "none",
-          }}
-        >
-          At Cape Point Rigging, we are passionate about providing a complete
-          suite of high-quality rigging services to our clients. With decades of
-          experience in the industry and a passion for sailing, we have become a
-          trusted name for boat owners and boat builders in need of rigging
-          solutions.
-        </CardContent>
-        <CardActions
-          className="flex align-center justify-center"
-          style={{
-            fontFamily: AppFont,
-            color: "white",
-            backgroundColor: layoutbgcolor,
-            border: "none",
-          }}
-        >
-          <Button sx={{ bgcolor: "GrayText", color: "whitesmoke" }}>
-            Read more about Cape Point Rigging
-          </Button>
-        </CardActions>
-      </div>
-    </Fade>
+    <div>
+      <CardContent
+        className="flex text-center justify-center"
+        style={{
+          fontFamily: AppFont,
+          color: "white",
+          backgroundColor: layoutbgcolor,
+          border: "none",
+        }}
+      >
+        At Cape Point Rigging, we are passionate about providing a complete
+        suite of high-quality rigging services to our clients. With decades of
+        experience in the industry and a passion for sailing, we have become a
+        trusted name for boat owners and boat builders in need of rigging
+        solutions.
+      </CardContent>
+      <CardActions
+        className="flex align-center justify-center"
+        style={{
+          fontFamily: AppFont,
+          color: "white",
+          backgroundColor: layoutbgcolor,
+          border: "none",
+        }}
+      >
+        <Button sx={{ bgcolor: "GrayText", color: "whitesmoke" }}>
+          Read more about Cape Point Rigging
+        </Button>
+      </CardActions>
+    </div>
   );
 };
 
