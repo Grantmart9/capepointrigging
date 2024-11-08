@@ -18,7 +18,7 @@ import About12 from "Images/about12.jpg";
 export const AboutUs = () => {
   return (
     <div className="flex align-center justify-center">
-      <Card style={{backgroundColor:"black"}}>
+      <Card style={{ backgroundColor: "black" }}>
         <CardContent
           className="flex align-center justify-center"
           sx={{ color: "whitesmoke" }}
@@ -111,10 +111,7 @@ export const AboutUsMain = () => {
   return (
     <div>
       <div sx={{ backgroundColor: "black" }} className="rounded-md p-2">
-        <div
-          className="flex align-center justify-center"
-          sx={{ color: "whitesmoke" }}
-        >
+        <div className="flex align-center justify-center text-gray-light p-2">
           An experienced and professional rigging team with decades of rigging
           experience
         </div>
@@ -122,7 +119,7 @@ export const AboutUsMain = () => {
           className="flex text-center justify-center"
           sx={{ color: "whitesmoke" }}
         >
-          <div className="grid grid-cols-2 gap-0">
+          <div className="grid md:grid-cols-2 gap-0">
             <div style={{ color: "white" }} className="p-2">
               At Cape Point Rigging, we are passionate about providing a
               complete suite of high-quality rigging services to our clients.
