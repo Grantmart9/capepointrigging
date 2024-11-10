@@ -4,7 +4,7 @@ import I2 from "Images/I2.jpg";
 import I3 from "Images/I3.jpeg";
 import I4 from "Images/I4.jpg";
 import I5 from "Images/I5.jpg";
-import I6 from "Images/I7.jpg";
+import I6 from "Images/I6.jpg";
 import I7 from "Images/I7.jpg";
 import I8 from "Images/I8.jpg";
 

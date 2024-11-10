@@ -46,6 +46,13 @@ export const Contact = ({ topBarOn }) => {
           : isResponsiveSize
           ? "calc(100vw)"
           : "calc(100vw)",
+        paddingTop: topBarOn
+          ? isResponsiveSize
+            ? "10pt"
+            : "0pt"
+          : isResponsiveSize
+          ? "0pt"
+          : "0pt",
       }}
     >
       <div>
@@ -74,7 +81,10 @@ export const Contact = ({ topBarOn }) => {
           className="grid grid-flow-row gap-0"
           style={{ backgroundColor: layoutbgcolor }}
         >
-          <ContactUsMain />
+          <ContactUsMain
+            topBarOn={topBarOn}
+            isResponsiveSize={isResponsiveSize}
+          />
           <div className="flex align-center justify-center">
             <img src={ContactImage} width={"45%"} />
           </div>
