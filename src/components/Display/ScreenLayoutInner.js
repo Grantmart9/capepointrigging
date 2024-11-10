@@ -5,7 +5,6 @@ import { About } from "Pages/About";
 import { Contact } from "Pages/Contact";
 import { Services } from "Pages/Services";
 import { Routes } from "components/Routes";
-import { Fun } from "Pages/Fun";
 import { layoutbgcolor } from "./feutures";
 
 export const ScreenLayoutInner = ({ topBarOn }) => {
@@ -21,11 +20,8 @@ export const ScreenLayoutInner = ({ topBarOn }) => {
         <Route path={Routes[2].path}>
           <Services topBarOn={topBarOn} />
         </Route>
-        <Route path={Routes[3].path}>
+        <Route path={Routes[5].path}>
           <Contact topBarOn={topBarOn} />
-        </Route>
-        <Route path={Routes[4].path}>
-          <Fun topBarOn={topBarOn} />
         </Route>
         <Route path="/">
           <Landing topBarOn={topBarOn} />
