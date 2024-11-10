@@ -164,8 +164,11 @@ export const About = ({ topBarOn }) => {
           topBarOn={topBarOn}
           isResponsiveSize={isResponsiveSize}
         />
-        <div style={{ opacity: "100%" }} className="p-3">
-          <AboutUsMain />
+        <div>
+          <AboutUsMain
+            topBarOn={topBarOn}
+            isResponsiveSize={isResponsiveSize}
+          />
         </div>
       </div>
       <div>
