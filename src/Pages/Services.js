@@ -3,7 +3,7 @@ import { Size } from "components/Display/media-query";
 import { Routes } from "components/Routes";
 import { RenderHeader } from "components/Display/PageHeader";
 import { PageFooter } from "components/Display/PageFooter";
-import { ServicesSub } from "./SubPages/ServicesSub";
+import { ServicesSubMain } from "./SubPages/ServicesSub";
 
 export const Services = ({ topBarOn }) => {
   var size = Size();
@@ -30,10 +30,9 @@ export const Services = ({ topBarOn }) => {
         style={{
           zIndex: 2,
           width: "100%",
-     
         }}
       >
-        <ServicesSub />
+        <ServicesSubMain />
       </div>
       <div
         style={{
