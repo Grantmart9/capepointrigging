@@ -37,7 +37,14 @@ const LandingContext = () => {
           border: "none",
         }}
       >
-        <Button href="/AboutUs" sx={{ bgcolor: "GrayText", color: "whitesmoke" }}>
+        <Button
+          href="/AboutUs"
+          sx={{
+            bgcolor: "#262929",
+            color: "whitesmoke",
+            textTransform: "none",
+          }}
+        >
           Read more about Cape Point Rigging
         </Button>
       </CardActions>

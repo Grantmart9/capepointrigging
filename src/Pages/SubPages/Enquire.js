@@ -87,7 +87,11 @@ export const Enquire = () => {
           </div>
           <div className="flex align-center justify-center">
             <Button
-              sx={{ color: "whitesmoke", maxWidth: "100pt", bgcolor: "gray" }}
+              sx={{
+                bgcolor: "#262929",
+                color: "whitesmoke",
+                textTransform: "none",
+              }}
             >
               Send
             </Button>
