@@ -86,7 +86,7 @@ export const Contact = ({ topBarOn }) => {
             isResponsiveSize={isResponsiveSize}
           />
           <div className="flex align-center justify-center">
-            <img src={ContactImage} width={"45%"} />
+            <img src={ContactImage} width={"45%"} style={{maxHeight:"200px"}} />
           </div>
           <div className="py-4">
             <SocialMediaIcons />
