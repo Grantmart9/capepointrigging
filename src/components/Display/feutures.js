@@ -19,6 +19,7 @@ export const cardtitlecolor = "#cccaca";
 export const layoutbgcolor = "black";
 export const pagebgcolor = "#7d9db5";
 export const contentbgcolor = layoutbgcolor;
+export const masterbgcolor = "#262c2e";
 
 
 // Text font //

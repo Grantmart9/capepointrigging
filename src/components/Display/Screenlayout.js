@@ -4,7 +4,7 @@ import { ScreenLayoutInner } from "./ScreenLayoutInner";
 import { SideBar } from "./SideBar";
 import { Slide } from "@mui/material";
 import { Size } from "components/Display/media-query";
-import { layoutbgcolor } from "./feutures";
+import { layoutbgcolor, masterbgcolor } from "./feutures";
 
 export const ScreenLayout = () => {
   const size = Size();
@@ -22,6 +22,7 @@ export const ScreenLayout = () => {
         display: "flex",
         flexDirection: "column",
         width: "100vw",
+        backgroundColor:masterbgcolor
       }}
     >
       <TopBar setTopBarOn={toggleTopBar} />
